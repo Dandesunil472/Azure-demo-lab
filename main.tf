@@ -18,6 +18,6 @@ resource "azurerm_resource_group" "rg" {
 
   tags = {
     App        = "100"
-    TechOwner  = "Sunil"
+    TechOwner  = "Sunil-updatedterraform"
   }
 }
