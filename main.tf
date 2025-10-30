@@ -21,3 +21,13 @@ resource "azurerm_resource_group" "rg" {
     TechOwner  = "Sunil-updatedterraform"
   }
 }
+# Second Resource Group
+resource "azurerm_resource_group" "rg_sunil_demo" {
+  name     = "Sunil-Demo"
+  location = "East US"
+
+  tags = {
+    App       = "200"
+    TechOwner = "Sunil"
+  }
+}
